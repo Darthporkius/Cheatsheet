@@ -54,4 +54,14 @@ Push protocol
 	Use   git commit -a -m <typemessagehere>   to commit all of it to the
 	online repo.
 	5. How to push the commit.
-	Use   git push   to send the commits on their way to the repo.    
+	Use   git push   to send the commits on their way to the repo.  
+
+
+How to resolve merge conflicts
+	1. Go to the project file
+	2. Use   git status   to see where the problem is.
+	3. Open the file that has the conflict in your text editor.
+	4. The conflicts are marked with <<<<<<<<, =======, >>>>>>>>> and
+	the name of the branch.
+	5. Delete what you don't want.
+	6. add, commit and push  
