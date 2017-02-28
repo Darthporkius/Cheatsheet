@@ -1,0 +1,41 @@
+Git Bash startup
+Fist step of starting up the git bash.
+You can do this from any dir.:
+	- Start the authentication agent
+		eval $(ssh-agent -s)
+	- Then you add your SSH key
+		ssh-add ~/.ssh/name_rsa
+	Note: You made an alias bolth of them.
+
+How to creat a new SSH key
+	1.Check the keys you have:
+		ls -al ~/.ssh
+	2.Submit your email
+		ssh-keygen -t rsa -b 4096 -C "j.l.rasmussengarcia@gmail.com"
+	3.Follow the onscreen instructions.
+		add file to save key
+		enter passphrase warning!! your input is hidden
+		confirm passphrase	
+
+How to sync a repo from github to your pc.
+	Use  "git pull"  to sync up the local files with the files
+	in the online repo. Make sure that you are on your project folder.
+
+How to jump to a folder quickly.
+	Within your project file type
+		cd "And the first few letters of the folder you want"
+		Then use TAB.
+	Gitbash will try to autocomplete the name of the folder.
+
+Commit protocol
+	1. Check if you have file or folders that haven't been added to the 
+	git repo use      git status
+	Everything colored red is not added.
+	2. Add the red stuff
+	Use   git add *   to add all of them. Or you can specify one of them
+	3. Check again with    git status
+	4. How to commit
+	Use   git commit -a -m <typemessagehere>   to commit all of it to the
+	online repo.
+	5. How to push the commit.
+	Use   git push   to send the commits on their way to the repo.    
