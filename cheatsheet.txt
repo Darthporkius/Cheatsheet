@@ -15,9 +15,25 @@ How to creat a new SSH key
 	3.Follow the onscreen instructions.
 		add file to save key
 		enter passphrase warning!! your input is hidden
-		confirm passphrase	
+		confirm passphrase
+
+How to create files and folders
+	Files:
+	touch <filename>
+	Folder:
+	mkdir <foldername>
+
+How to make a repo.
+	You can make it on the GitHub site and then pull it to your project file.
+	Or you can make it on your pc and then push it to GitHub.
+		Go to your projects folder.
+		Make a folder for your new project.
+		Go to the new project folder.
+		Use   git init   to initialize new project folder as a Git repo.
+		Follow the Push protocol decribed inside this doc.	
 
 How to sync a repo from github to your pc.
+	You can use this when you create a repo on the github site.
 	Use  "git pull"  to sync up the local files with the files
 	in the online repo. Make sure that you are on your project folder.
 
@@ -27,7 +43,7 @@ How to jump to a folder quickly.
 		Then use TAB.
 	Gitbash will try to autocomplete the name of the folder.
 
-Commit protocol
+Push protocol
 	1. Check if you have file or folders that haven't been added to the 
 	git repo use      git status
 	Everything colored red is not added.
