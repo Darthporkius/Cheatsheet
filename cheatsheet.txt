@@ -78,3 +78,25 @@ How to resolve merge conflicts
 	the name of the branch.
 	5. Delete what you don't want.
 	6. add, commit and push  
+
+Make alias and fucntions in git bash
+	1. Use   notepad .bashrc   in git bash to open up
+		the .bashrc file.
+	2. All aliases and fucntions must be writen in here.
+	3. Alias examples:
+			Short cut to file.
+			alias lab='cd /c/Users/joseluis/Documents/GitHub'
+			Short cut of command line
+			alias 007='eval $(ssh-agent -s)'
+	4. Function examples:
+			Short cut to make a push.
+				push() {
+				    #do things with parameters like $1
+				    git add *
+				    git commit -a -m "$1"
+				    git push
+				}
+			The $1 is the parameter you give to the function.
+			In this case it is the messege that you give with
+			the push.
+	
