@@ -68,7 +68,7 @@ Push protocol
 	Use   git push   to send the commits on their way to the repo.  
 
 How to undo a commit
-	babsjax
+	babsjaxzsdvsvd
 
 How to resolve merge conflicts
 	1. Go to the project file
