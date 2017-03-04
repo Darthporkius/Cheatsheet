@@ -26,11 +26,22 @@ How to create files and folders
 How to make a repo.
 	You can make it on the GitHub site and then pull it to your project file.
 	Or you can make it on your pc and then push it to GitHub.
-		Go to your projects folder.
-		Make a folder for your new project.
-		Go to the new project folder.
-		Use   git init   to initialize new project folder as a Git repo.
-		Follow the Push protocol decribed inside this doc.	
+		- Go to your projects folder.
+		- Make a folder for your new project.  use mkdir
+		- Go to the new project folder.
+		- Use   git init   to initialize new project folder as a Git repo.
+		- Make a repo online with the same name and copy the ssh key.
+		- use    git remote add origin <ssh key>   to link you project
+		  to the online repo.
+		- Follow the Push protocol decribed inside this doc.
+				git init
+				git add README.md
+				git commit -m "first commit"
+				git remote add origin git@github.com:Darthporkius/Reflection-exercise-Jose.git
+				git push -u origin master
+		- Push existing repo from com line
+				git remote add origin git@github.com:Darthporkius/Reflection-exercise-Jose.git
+				git push -u origin master	
 
 How to sync a repo from github to your pc.
 	You can use this when you create a repo on the github site.
@@ -55,6 +66,8 @@ Push protocol
 	online repo.
 	5. How to push the commit.
 	Use   git push   to send the commits on their way to the repo.  
+
+undo commit
 
 
 How to resolve merge conflicts
