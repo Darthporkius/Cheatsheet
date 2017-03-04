@@ -67,7 +67,7 @@ Push protocol
 	5. How to push the commit.
 	Use   git push   to send the commits on their way to the repo.  
 
-undo commit
+How to undo a commit
 
 
 How to resolve merge conflicts
