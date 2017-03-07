@@ -99,4 +99,17 @@ Make alias and fucntions in git bash
 			The $1 is the parameter you give to the function.
 			In this case it is the messege that you give with
 			the push.
+
+How to make a branch:
+	Make sure your master is up to date.
+	Create the branch on your local machine.
+		$ git checkout -b [name_of_your_new_branch]
+
+	Push the branch on github
+		$ git push origin [name_of_your_new_branch]
+
+	You can see all branches created by using
+		$ git branch
+
+	
 	
